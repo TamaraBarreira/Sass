@@ -1,4 +1,5 @@
 
+$color-principal: #7a3401;
 
 body {
     height: 125vh;
@@ -52,7 +53,7 @@ main {
     overflow: hidden;
 }
 .titulo {
-    color: #7a3401;
+    color: $color-principal;
     font-size: 30px;
     text-align: center;
     margin-bottom: 60px;
@@ -67,10 +68,10 @@ main {
 }
 .principal h1 {
     font-size: 50px;
-    color: #7a3401;
+    color: $color-principal;
 }
 .principal h2 {
     font-size: 30px;
     font-weight: 300;
-    color: #7a3401;
+    color: $color-principal;
 }
